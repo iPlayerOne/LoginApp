@@ -17,7 +17,7 @@ class PresentViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        setupBackground(colorOne: UIColor.systemCyan.cgColor, colorTwo: UIColor.systemBlue.cgColor)
+        setupBackground(colorOne: UIColor.systemGray.cgColor, colorTwo: UIColor.darkGray.cgColor)
         presentImage.image = UIImage(named: user.about.images[2])
         presentPresentation.text = user.about.present
     }
